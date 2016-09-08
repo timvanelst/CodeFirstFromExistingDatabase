@@ -1,0 +1,15 @@
+﻿@model CodeFirstFromExistingDatabase.Models.PersonsModel
+
+@{
+    ViewBag.Title = "PersonsView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>PersonsView</h2>
+
+<table>
+    @foreach(CodeFirstFromExistingDatabase.Models.PersonModel person in Model.Persons)
+    {
+        <tr><td>@Html.DisplayFor(m => person.Name)</td></tr>
+    }
+</table>
