@@ -1,0 +1,8 @@
+*/obj/
+*/bin/
+DAL.Data/obj/
+DAL.Data/bin/
+DAL.Logic/bin/
+CodeFirstFromExistingDatabase/obj/
+CodeFirstFromExistingDatabase/bin/
+DAL.Logic/obj/
